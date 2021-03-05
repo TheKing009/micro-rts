@@ -1,5 +1,6 @@
 [bootstrap]
 main_collection = /main/main.collectionc
+render = /orthographic/render/orthographic.renderc
 
 [script]
 shared_state = 1
@@ -13,5 +14,9 @@ input_method = HiddenInputField
 
 [project]
 title = WarBattles
-dependencies = https://github.com/defold/defold-examples/releases/download/0.2.0/war-battles.zip,https://github.com/britzl/defold-orthographic/archive/2.11.3.zip
+dependencies = https://github.com/britzl/defold-orthographic/archive/2.11.3.zip
+
+[graphics]
+default_texture_min_filter = nearest
+default_texture_mag_filter = nearest
 
