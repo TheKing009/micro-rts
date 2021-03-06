@@ -15,8 +15,12 @@ input_method = HiddenInputField
 [project]
 title = WarBattles
 dependencies = https://github.com/britzl/defold-orthographic/archive/2.11.3.zip
+version = 0.1
 
 [graphics]
 default_texture_min_filter = nearest
 default_texture_mag_filter = nearest
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
 
